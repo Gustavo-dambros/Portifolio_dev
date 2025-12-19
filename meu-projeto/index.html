@@ -6,15 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>meu-projeto</title>
   </head>
-  <body>
+  <body class="p-0 m-0 ">
+
     <div id="app"></div>
 
- <div class="bg-purple-700 p-6 ">
- Teste para ver se o tailwind esta rodando de forma correta
+ 
+<div class="w-screen min-h-screen bg-bg_color flex flex-col">
+  
+<header class="h-10 w-full mt-10 flex fixed  items-center justify-center">
+ <div class="border-2 border-white rounded-4xl px-5 bg-white/30">
+
+ 
+  <ul class=" h-10  items-center justify-center flex text-white gap-6">
+    <li class="hover:text-red hover:cursor-pointer">Home</li>
+    <li class="hover:text-green hover:cursor-pointer">About</li>
+    <li class="hover:text-red hover:cursor-pointer">Projects</li>
+    <li class="trasition-all duration-700 hover:text-green hover:cursor-pointer hover:underline underline-red">Contact</li>
+</div> 
+ </ul>
+</header>
+
+<main class="flex-1">
+  <!-- Conteúdo principal aqui -->
+</main>
+  
+  <footer class="w-full h-20 border-t border-red mt-auto">aaa</footer>
+ 
+
 </div>
-
-
-
  <script type="module" src="/src/main.js"></script>
 
  
