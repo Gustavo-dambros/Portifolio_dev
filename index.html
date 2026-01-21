@@ -11,32 +11,119 @@
     <div id="app"></div>
 
  
-<div class="w-screen h-screen bg-bg_color flex lg:p-10">
+  <div class="min-h-screen flex flex-col bg-bg_color lg:px-10">
 
 
-  <header class="w-full h-10 fixed text-center items-center justify-center flex ">
-    <nav>
-      <ul class="flex">
-        <li class="mx-5">Home</li>
-        <li class="mx-5">Projetos</li>
-        <li class="mx-5">Sobre</li>
-        <li class="mx-5">Contato</li>
-      </ul>
-    </nav>
-  </header>
 
-  <div class="w-full mt-20 lg:flex">
-<div class="lg:w-1/2 mx-20 lg:m-0 flex text-center items-center justify-center">
-    <h1 class="font-bold text-pink-700 text-6xl "><span class="font-light text-2xl">Prazer, me chamo <br></span>Gustavo Dambros <br><span class="text-4xl">Programador Front-End</span></h1>
-  
- 
-</div>
+  <header class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl z-50 px-4 pt-4">
+        <nav class="bg-white/80 backdrop-blur-md shadow-sm rounded-2xl border border-slate-200">
+          <ul class="flex justify-center md:justify-between items-center h-16 px-8">
+            <li class="hidden md:block font-bold text-accent_color">GD.</li>
+            <div class="flex gap-6 md:gap-10">
+              <li><a href="#" class="hover:text-accent_color transition-colors">Home</a></li>
+              <li><a href="#" class="hover:text-accent_color transition-colors">Projetos</a></li>
+              <li><a href="#" class="hover:text-accent_color transition-colors">Sobre</a></li>
+              <li><a href="#" class="hover:text-accent_color transition-colors">Contato</a></li>
+            </div>
+          </ul>
+        </nav>
+      </header>
+
+        <!--Apresentação-->
+  <section class="w-full mt-20 lg:mb-10 lg:flex">
+       <div class="lg:w-1/2 text-center mt-20 space-y-4">
+          <h1 class="font-bold text-neutral_color text-4xl md:text-6xl leading-tight">
+            <span class="font-light text-xl md:text-2xl block text-neutral_color mb-2">Prazer, me chamo</span>
+            Gustavo Dambros
+            <span class="block text-accent_color text-3xl md:text-4xl mt-2">Programador Front-End</span>
+          </h1>
+          <p class="text-neutral_color w-full mx-auto lg:mx-0">
+            Transformando ideias em experiências digitais modernas e <br> responsivas.
+          </p>
+          <div class="pt-4">
+            <button class="bg-accent_color text-white px-8 py-3 rounded-full font-medium hover:opacity-90 transition-opacity">
+              Ver Curriculo
+            </button>
+          </div>
+        </div>
+
+        <!--Imagem minha-->
    <div class="w-full items-center justify-center mt-20 flex">
-    <div class="h-100  w-100  lg:w-200 ">
+    <div class="  w-100  lg:w-200 ">
         <img src="src/img/WhatsApp Image 2026-01-20 at 08.39.56.jpeg" alt="">
     </div>
   </div>
+  
+
+</section>
+<!--Redes sociais-->
+<section class="w-full lg:w-3/4 justify-between lg:mx-35 flex">
+  <div class="lg:w-full w-0">
+
   </div>
+   
+    <div class="w-full flex ml-2 justify-center lg:justify-normal">
+      
+      <a href="#"><div class="h-10 w-10 mr-5 bg-white">
+
+        </div></a>
+         <a href="#"><div class="h-10 w-10 mr-5 bg-white">
+
+        </div></a>
+
+         <a href="#"><div class="h-10 w-10  bg-white">
+
+        </div></a>
+  </div>
+
+</section>
+
+
+<!--Sobre mim-->
+  <section class="w-full text-center my-30">
+      <div class="text-3xl">
+          <h1 class="text-white">Estudante <br>e <br><span class="text-accent_color">Programador</span></h1>
+      </div>
+
+      <div class="w/full justify-center flex mt-5">
+        <div class="w-1/2">
+          <p class="text-2xl text-neutral_color">
+              Me chamo Gustavo Dambros tenho 16 anos, sou estudante de Desenvolvimento de Sistemaas do colégio CEEP,intusiasta de novas tecnologias e encantado pelo mundo tech e como ele funciona. <br> <br>
+              Meu prazer é resolver seus  problemasMeu nome é Gustavo Dambros, sou estudante do curso técnico em Desenvolvimento de Sistemas e estou iniciando minha jornada como desenvolvedor frontend. Tenho grande interesse por tecnologia, design e pela forma como a programação pode transformar ideias em experiências reais.
+          </p>
+        </div>
+      </div>
+
+  </section>
+
+  <section class="w-full  my-30 flex ">
+
+    <div class="w-1/2 justify-center ">
+      <h1 class="text-white text-2xl font-bold lg:text-4xl lg:ml-30">
+        Tecnologias
+      </h1>
+      
+      <div class="w-1/5 justify-between  bg-pink-100 flex columns-3">
+          <div class="w-10 h-10 bg-amber-50">
+
+
+          </div>
+           <div class="w-10 h-10 bg-amber-50">
+
+
+          </div> <div class="w-10 h-10 bg-amber-50">
+
+
+          </div>
+      </div>
+    </div>
+
+    <div class="w-1/2 bg-white h-10 lg:mt-50">
+
+    </div>
+  
+  </section>
+
 
 </div>
  <script type="module" src="/src/main.js"></script>
